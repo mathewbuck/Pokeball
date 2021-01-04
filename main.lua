@@ -7,7 +7,7 @@ function love.load()
 end
 
 function love.draw()
-	love.graphics.clear(0.0,0.0,.0)
+	love.graphics.clear(0.0,0.0,0.0)
 	love.graphics.draw(pokeball, 300,300, alpha, 1, 1, 200, 200)
 end
 
